@@ -1,0 +1,111 @@
+@media (min-width: 1600px) {
+    h2 {
+    font-size: 34px;
+    }
+    
+    .nav-desktop a{
+    font-size: 22px;
+    padding: 15px 20px;
+    }
+
+    .header-nav {
+      font-size: 24px;
+    }
+
+    .img-pessoal {
+        width: 300px;
+    }
+
+    .img-assinatura {
+        height: 220px;
+    }
+
+    .apresentacao h1 {
+        font-size: 38px;
+        margin: 20px 0;
+    }
+
+    .links {
+    font-size: 24px;
+    }
+
+    .sobre-mim p {
+        font-size: 24px;
+        padding: 15px 10%;
+    }
+
+    .skills h2 {
+        margin-bottom: 2%;
+    }
+
+    .tags-skills {
+        gap: 40px;
+    }
+
+    .skills .tags-skills div {
+        width: 240px;
+        height: 220px;
+        border-radius: 10px; 
+    }
+
+    .skills div p {
+        font-size: 22px;
+    }
+
+    .skills div i {
+        font-size: 100px;
+    }
+
+    .skills div img {
+        width: 100px;
+    }
+
+    .projetos h4 {
+        font-size: 32px;
+        padding: 10px;
+    }
+
+    .bloco-projeto {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 1% 2%;
+    }
+
+    .bloco-projeto h4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .descbot-projeto {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    gap: 30px;
+    }
+
+    .bloco-img-projeto {
+        width: 80%;
+    }
+
+    .descbot-projeto button {
+        font-size: 22px;
+        border: 2px solid #0000ad;
+    }
+
+    .contato {
+    padding: 15px 30%;
+    }
+
+    .contato p {
+        font-size: 22px;
+    }
+
+    .contato a {
+        font-size: 35px;
+    }
+}
