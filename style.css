@@ -35,6 +35,25 @@ h2 {
     color: var(--blackFont);
 }
 
+@media(min-width: 565px){
+    .apresentacao {
+        text-align: center;
+    }
+
+    .sobre-mim {
+        font-size: 16px;
+    }
+
+    .contato a {
+        width: 20%;
+    }
+
+    .links {
+    font-size: 18px;
+    }
+
+}
+
 /*  */
 /* Header */
 /*  */
@@ -57,6 +76,14 @@ header {
 
 .nav-desktop {
     display: none;
+    background-color: var(--blue1);
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+.nav-desktop a {
+margin: 0 15px;
 }
 
 .links {
@@ -98,12 +125,15 @@ header {
 
 .sobre-mim {
     background-color: var(--blue1);
-    font-size: 12px;
     padding: 15px;
     color: var(--blackFont);
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.sobre-mim p {
+    font-size: 13px;
 }
 
 .sobre-mim h2 {
@@ -229,7 +259,6 @@ header {
     font-size: 30px;
     width: 30%;
     text-align: center;
-
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
 }
 

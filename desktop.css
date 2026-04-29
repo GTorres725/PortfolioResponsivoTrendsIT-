@@ -1,0 +1,47 @@
+@media (min-width: 1024px) {
+    h2 {
+        font-size: 30px;
+    }
+
+  .nav-desktop {
+    display: block;
+    font-size: 18px;
+    }
+
+    .img-pessoal {
+    width: 200px;
+    }
+
+    .img-assinatura {
+        height: 150px;
+    }
+
+    .apresentacao h1 {
+      font-size: 28px;
+    }
+
+    .links {
+    font-size: 20px;
+    }
+
+    .sobre-mim {
+    font-size: 20px;
+    padding: 15px 8%;
+    }
+
+    .projetos h4 {
+    font-size: 24px;
+    }
+
+    .contato {
+    padding: 15px 25%;
+    }
+
+    .contato p {
+        font-size: 20px;
+    }
+
+    .contato a {
+        font-size: 35px;
+    }
+}
