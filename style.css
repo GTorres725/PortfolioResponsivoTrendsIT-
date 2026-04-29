@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Cores */
+    --blue2: rgb(41, 41, 105);
+    --yellow: #ffa500;
+    --blue3: #0000ad;
+    --grayLabel: #a2a2a2;
+    /* Fontes */
+    --raleway: "Raleway";
+    --Source_Code: "Source Code Pro", monospace;
+    /* Cores White */
+    --white1: #f5f5f5;
+    --blue1: #EAF2FD;
+    --blackFont: #464646;
+}
+
+body {
+    font-family: var(--raleway);
+    color: var(--blackFont);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h2 {
+    color: var(--blackFont);
+}
+
+/*  */
+/* Header */
+/*  */
+
+header {
+    width: 100%;
+    background-color: var(--white1);
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-desktop {
+    display: none;
+}
+
+.links {
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+    justify-content: center;
+}
+
+.header-imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-pessoal {
+    border-radius: 50%;
+    width: 120px;
+}
+
+.img-assinatura {
+    mix-blend-mode: multiply;
+    height: 90px;
+}
+
+.apresentacao h1 {
+    font-size: 20px;
+}
+
+/*  */
+/* Main */
+/*  */
+
+/* Sobre mim */
+
+.sobre-mim {
+    background-color: var(--blue1);
+    font-size: 12px;
+    padding: 15px;
+    color: var(--blackFont);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sobre-mim h2 {
+    text-align: center;
+}
+
+/* Skills */
+
+.skills {
+    background-color: var(--white1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+}
+
+.tags-skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: #fff;
+    font-weight: bold;
+}
+
+.skills .tags-skills div {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 120px; 
+    gap: 10%;
+    border-radius: 5px;
+}
+
+.skills div i {
+    font-size: 60px;
+}
+
+.skills div img {
+    width: 60px;
+}
+
+/* Projetos */
+
+.projetos {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+}
+
+.projetos h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.bloco-projeto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.bloco-img-projeto img {
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 
+    0 -8px 10px -6px var(--blue3),
+    0 8px 10px -6px var(--blue3),
+    -8px 0 10px -6px var(--blue3)
+}
+
+
+.bloco-img-projeto {
+    display: flex;
+    justify-content: center;
+}
+
+.descbot-projeto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    font-size: 12px;
+    gap: 25px;
+}
+
+.descbot-projeto button {
+    padding: 10px;
+    border: 1px solid var(--blue3);
+    color: var(--blue3);
+    border-radius: 5px;
+    background: none;
+    font-size: 14px;
+}
+
