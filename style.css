@@ -9,7 +9,7 @@
 :root {
     /* Cores */
     --blue2: rgb(41, 41, 105);
-    --yellow: #ffa500;
+    --greenWpp: #075E54;
     --blue3: #0000ad;
     --grayLabel: #a2a2a2;
     /* Fontes */
@@ -62,9 +62,13 @@ header {
 .links {
     display: flex;
     text-decoration: none;
+    width: 100%;
     gap: 10px;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
+
 
 .header-imgs {
     display: flex;
@@ -202,5 +206,30 @@ header {
     border-radius: 5px;
     background: none;
     font-size: 14px;
+}
+
+/* Contato */
+
+.contato {
+    background-color: var(--blue1);
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.contato a {
+    border: 3px solid var(--greenWpp);
+    color: var(--greenWpp);
+    border-radius: 5px;
+    background: var(--blue1);
+    font-size: 30px;
+    width: 30%;
+    text-align: center;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
 }
 
