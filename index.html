@@ -15,10 +15,10 @@
         <div class="header-nav">
             <p>Luiz Guilherme  <i class="fa-solid fa-play"></i></p>
             <nav class="nav-desktop">
-                <a href="">Sobre mim</a>
-                <a href="">Skills</a>
-                <a href="">Projetos</a>
-                <a href="">Contato</a>
+                <a href="#sobre-mim">Sobre mim</a>
+                <a href="#skills">Skills</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
             </nav>
             <p>lgcamargo1@gmail.com</p>
         </div>
@@ -33,15 +33,15 @@
         </div>
 
         <div class="links">
-            <a href="">Github <i class="fa-solid fa-location-arrow"></i></a>
-            <a href="">Linkedin <i class="fa-solid fa-location-arrow"></i></a>
-            <a href="">Whatsapp <i class="fa-solid fa-location-arrow"></i></a>
-            <a href="">Curriculo <i class="fa-solid fa-location-arrow"></i></a>
+            <a href="https://github.com/GTorres725" target="_blank">Github <i class="fa-solid fa-location-arrow"></i></a>
+            <a href="www.linkedin.com/in/luiz-guilherme-de-camargo-180024209" target="_blank"> Linkedin <i class="fa-solid fa-location-arrow"></i></a>
+            <a href="https://wa.me/+5515997395674?text=Olá,%20vim%20pelo%20seu%20portfólio!" target="_blank"> Whatsapp <i class="fa-solid fa-location-arrow"></i></a>
+            <a href="cv/Curriculo_Luiz_Guilherme.pdf" download=""> Curriculo <i class="fa-solid fa-location-arrow"></i></a>
         </div>
     </header>
 
     <main>
-        <section class="sobre-mim">
+        <section class="sobre-mim" id="sobre-mim">
             <h2>Sobre Mim</h2>
             <p>
                 Atuo como Agente Local de Inovação pelo Sebrae, apoiando empresas na resolução de desafios com foco em eficiência operacional, aumento de faturamento e competitividade. <br>
@@ -51,7 +51,7 @@
             </p>
         </section>
 
-        <section class="skills">
+        <section class="skills" id="skills">
             <h2>Skills</h2>
             <div class="tags-skills">
                 <div>
@@ -81,55 +81,58 @@
             </div>
         </section>
 
-        <section class="projetos">
+        <section class="projetos" id="projetos">
             <h2>Projetos</h2>
             <!-- Rick And Morty -->
             <div class="bloco-projeto">
                 <h4>Personagens de Rick and Morty</h4>
                 <div class="bloco-img-projeto">
-                    <img src="img/Capas_projetos/Decodificador.png" alt="Imagem demonstrando o projeto Decodificador de texto">
+                    <img src="img/Capas_projetos/rick_morty.png" alt="Imagem demonstrando o projeto de visualização de personagens do seriado Rick and Morty">
                 </div>
                 <div class="descbot-projeto">
-                    <p>API que traz os Personagens do seriado Rick and Morty</p>
-                    <button>Repositório</button>
+                    <p>API que traz os Personagens do seriado Rick and Morty <br> Desenvolvido com NextJS</p>
+                    <a href="https://github.com/GTorres725/api_rickAndMorty_reactEstudo.git" target="_blank">Repositório</a>
                 </div>
             </div>
 
             <!--  -->
 
             <div class="bloco-projeto">
-                <h4>Decodificador de Texto</h4>
+                <h4>PL Playes clubs</h4>
                 <div class="bloco-img-projeto">
-                    <img src="img/Capas_projetos/Decodificador.png" alt="Imagem demonstrando o projeto Decodificador de texto">
+                    <img src="img/Capas_projetos/pl_players.png" alt="Imagem do desenvolvimento do projeto Pl Players Club">
                 </div>
                 <div class="descbot-projeto">
-                    <p>Challenger Alura de um decodificador de texto</p>
-                    <button>Repositório</button>
+                    <p>Sistema para adicionar clubes e jogadores com seus respectivos dados a serem armazenados em DB <br> Desenvolvido com NestJS</p>
+                    <a href="https://github.com/GTorres725/pl_players_clubs_NestEstudo.git" target="_blank">Repositório</a>
                 </div>
             </div>
 
             <!--  -->
 
             <div class="bloco-projeto">
-                <h4>Decodificador de Texto</h4>
+                <h4>Empresa</h4>
                 <div class="bloco-img-projeto">
-                    <img src="img/Capas_projetos/Decodificador.png" alt="Imagem demonstrando o projeto Decodificador de texto">
+                    <img src="img/Capas_projetos/empresa.png" alt="Imagem do desenvolvimento do projeto Empresa">
                 </div>
                 <div class="descbot-projeto">
-                    <p>Challenger Alura de um decodificador de texto</p>
-                    <button>Repositório</button>
+                    <p>Sistema para esquematização e links entre departamento e colaboradores, bem como seus respectivos dados armazenados em DB <br> Desenvolvido com NestJS</p>
+                    <a href="https://github.com/GTorres725/empresaNestEstudo.git" target="_blank">Repositório</a>
                 </div>
             </div>
         </section>
 
-        <section class="contato">
+        <section class="contato" id="contato">
             <h2>Contato</h2>
             <p>Entre em contato comigo via Whatsapp através do botão abaixo, responderei o mais breve possível!</p>
             <a href="https://wa.me/+5515997395674?text=Olá,%20vim%20pelo%20seu%20portfólio!" target="_blank">
                 <i class="fa-brands fa-whatsapp"></i>
             </a>
         </section>
-
     </main>
+
+    <footer>
+        <p>Desenvolvido por Luiz Guilherme de Camargo <br> 2026 </p>
+    </footer>
 </body>
 </html>
